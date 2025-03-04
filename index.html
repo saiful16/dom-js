@@ -134,7 +134,7 @@
             <h2 class="text-xl font-bold text-gray-800">Your Cart</h2>
 
             <!-- Cart Items Table -->
-            <div class="overflow-x-auto mt-4">
+            <div id="cart-table" class="overflow-x-auto mt-4">
                 <table class="min-w-full table-auto">
                     <thead>
                         <tr class="text-left border-b">
@@ -149,10 +149,11 @@
                         <!-- Cart items will go here dynamically -->
                     </tbody>
                 </table>
+
             </div>
 
             <!-- Buttons -->
-            <div class="flex justify-end gap-2 mt-4">
+            <div class="flex justify-end gap-2 mt-4 ">
                 <button id="continue-shopping" class="px-6 py-2 bg-gray-300 text-gray-800 rounded-lg hover:bg-gray-400">
                     Continue Shopping
                 </button>
@@ -162,6 +163,8 @@
             </div>
         </div>
     </div>
+
+    
 
     <script src="./js/script.js"></script>
 </body>
